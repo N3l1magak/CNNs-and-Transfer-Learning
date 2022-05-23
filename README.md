@@ -111,7 +111,7 @@ From the result above, the model is overfitting, as the training loss keep decre
 * Too many epochs, the model may converge early, and thus the rest of epochs only leads to overfitting
 * only "layer4" and "fc" layers are unfrozen, other layers may also need to update
 
-**Possible ways to improve model performance
+**Possible ways to improve model performance**
 
 * using scheduler to control the learning rate of the model after each epoch, depends on the loss calculated
 * implement an early stop when the loss won't decrease for a number of epochs
